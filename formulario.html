@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <title>Forms de Vinicius Tavares</title>
+<!--
+As opções de Select Tour Package: Goa, Andhra Pradesh, Haryana, Assam. - feito 
+Number of persons deve aceitar apenas números entre 1 e 9. - feito
+Email address deve aceitar apenas e-mails.
+Discount Coupon Code deve aceitar textos com, exatamente, 6 caracteres. - feito
+IMPORTANTE: Ao final, esta página deve estar na sua página no Github Pages. 
+-->
+
+<body>
+    <h1>Travel reservation form</h1>
+<h2>* denotes mandotory</h2>
+<br>
+
+Full Name*: <br> <!--NOME DO USUARIO-->
+<input type="text" name="nome_do_usuario" placeholder="FirstName LastName"/> <br>
+
+Email address*: <br> <!--ENDEREÇO DE EMAIL-->
+<input type="email" name="endereco_email_do_usuario" placeholder="EMAIL_ADDRESS"/> <br>
+
+Select Tour Package*: <br> <!--SELECIONAR DESTINO DE VIAGEM-->
+<select name="viagem">
+    <option value="Goa">Goa</option>
+    <option value="Andhra">Andhra</option>
+    <option value="Pradesh">Pradesh</option>
+    <option value="Haryana">Haryana</option>
+    <option value="Assam">Assam</option> 
+</select> <br>
+
+Arrival date*: <br> <!--DATA-->
+<input type="text" name="data" placeholder="m/d/y"/> <br>
+
+Number of persons*: <br> <!--NUMERO DE PESSOAS-->
+<input type="number" min="1" max="9" name="numero_de_pessoas" placeholder="UNKNOWN_TYPE"/> <br> <!--anotar o uso dos atributos min e max no resumo do cap 8-->
+
+What would you want to avail?* <br> <!--AVALIAÇÃO-->
+Boardign <input type="checkbox" name=""/> <br>
+Fooding <input type="checkbox" name=""/> <br>
+Sight seeing <input type="checkbox" name=""/> <br>
+
+Discount Coupon code: <br> <!--CUPOM DE DESCONTO-->
+<input type="text" size="6" maxlength="6" name="Cupom_de_desconto" placeholder="UNKNOWN_TYPE"/> <br>  <!--anotar no resumo do cap 8 o uso dos atributos size e maxlenght-->
+
+Terms and conditions* <br> <!--TERMOS E CONDIÇÕES-->
+<input type="radio" name="concordo" value="concordo"/> I agree
+<input type="radio" name="discordo" value="discordo" checked/> I disagree <br>
+<input type="submit" name="enviar" value="Complete reservation"> <br><br>
+
+<!--TESTA CODIGO AQUI BIXOKKKKKKKKKKKKKKKKKKKKKKK-->
+Teste de Códigos do Livro*: <br>
+<INPUT TYPE="text" NAME="teste" SIZE=10 MAXLENGTH=10>
+   
+
+
+</body>
+
+</html>
