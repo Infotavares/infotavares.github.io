@@ -9,18 +9,19 @@
 <!--
 As opções de Select Tour Package: Goa, Andhra Pradesh, Haryana, Assam. - feito 
 Number of persons deve aceitar apenas números entre 1 e 9. - feito
-Email address deve aceitar apenas e-mails.
+Email address deve aceitar apenas e-mails. - feito
 Discount Coupon Code deve aceitar textos com, exatamente, 6 caracteres. - feito
 IMPORTANTE: Ao final, esta página deve estar na sua página no Github Pages. 
 -->
 
 <body>
+<form>
     <h1>Travel reservation form</h1>
 <h2>* denotes mandotory</h2>
 <br>
 
 Full Name*: <br> <!--NOME DO USUARIO-->
-<input type="text" name="nome_do_usuario" placeholder="FirstName LastName"/> <br>
+<input type="text" maxlength="100" name="nome_do_usuario" placeholder="FirstName LastName"/> <br>
 
 Email address*: <br> <!--ENDEREÇO DE EMAIL-->
 <input type="email" name="endereco_email_do_usuario" placeholder="EMAIL_ADDRESS"/> <br>
@@ -35,7 +36,7 @@ Select Tour Package*: <br> <!--SELECIONAR DESTINO DE VIAGEM-->
 </select> <br>
 
 Arrival date*: <br> <!--DATA-->
-<input type="text" name="data" placeholder="m/d/y"/> <br>
+<input type="text" size="6" maxlength="10" name="data" placeholder="m/d/y"/> <br>
 
 Number of persons*: <br> <!--NUMERO DE PESSOAS-->
 <input type="number" min="1" max="9" name="numero_de_pessoas" placeholder="UNKNOWN_TYPE"/> <br> <!--anotar o uso dos atributos min e max no resumo do cap 8-->
@@ -50,15 +51,13 @@ Discount Coupon code: <br> <!--CUPOM DE DESCONTO-->
 
 Terms and conditions* <br> <!--TERMOS E CONDIÇÕES-->
 <input type="radio" name="concordo" value="concordo"/> I agree
-<input type="radio" name="discordo" value="discordo" checked/> I disagree <br>
+<input type="radio" name="discordo" value="discordo"/> I disagree <br>
 <input type="submit" name="enviar" value="Complete reservation"> <br><br>
 
-<!--TESTA CODIGO AQUI BIXOKKKKKKKKKKKKKKKKKKKKKKK-->
-Teste de Códigos do Livro*: <br>
-<INPUT TYPE="text" NAME="teste" SIZE=10 MAXLENGTH=10>
-   
+<!--TESTA CODIGO AQUI (-b '-')-b -->
+Teste de Códigos do Livro*: ...<br>
 
-
+</form>
 </body>
 
 </html>
