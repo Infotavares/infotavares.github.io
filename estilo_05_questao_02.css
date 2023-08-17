@@ -1,0 +1,32 @@
+.tabela tr{
+    height: 45px;
+}
+
+/*Propriedades do exercicio*/
+.textBlock {
+    height: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: slategray;
+    
+}
+
+.textBox {
+    height: 30px;
+    width: 75px;
+    font-size: 14;
+    border-color: beige;
+}
+
+.botoes {
+    /*
+    border-color: azure;
+    cursor: pointer;
+    color: beige
+    */
+
+    border-color: beige;
+    cursor: pointer;
+}
+
+
