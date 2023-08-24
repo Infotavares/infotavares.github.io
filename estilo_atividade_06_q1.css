@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(59, 73, 35);
+    color : #a1a1a1;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.cesarroberto {
+    text-align : center;
+    
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color : white;
+    
+}
+
+h3 {
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    color : white
+}
+
+a:visited{
+    color: white;
+}
+
+a {
+    color: white;
+}
