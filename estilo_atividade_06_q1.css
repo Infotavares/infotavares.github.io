@@ -1,12 +1,18 @@
 body {
     background-color: rgb(59, 73, 35);
-    color : #a1a1a1;
+    color : white;
     font-family:'Times New Roman', Times, serif;
 }
 
 .cesarroberto {
     text-align : center;
     
+}
+
+img {
+    border-width: 15px;
+    border-style:outset;
+    border-radius: 20px;
 }
 
 h1 {
